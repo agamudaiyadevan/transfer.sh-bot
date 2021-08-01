@@ -6,6 +6,10 @@ Telegram bot to upload files to transfer.sh remotely
 ### My Thanks to :heart: 
   - [MaheshMalekar](https://t.me/MaheshMalekar)
     
+### Deploy to Heroku 🏃‍♂
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agamudaiyadevan/transfer.sh-bot)
+
 ### Requirements
  - Bot Token (get it from [@BotFather](https://t.me/BotFather))
  - API ID
