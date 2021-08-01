@@ -19,7 +19,7 @@ bot = TelegramClient('Uploader bot', api_id, api_hash).start(bot_token=bot_token
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
     """Send a message when the command /start is issued."""
-    await event.respond('Hi!\nSent any file or direct download link to upload and get the transfer.sh download link')
+    await event.respond('Hello {first},\nSent any file or direct download link to upload and get the transfer.sh download link.')
     raise events.StopPropagation
 
 @bot.on(events.NewMessage)
